@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sagar.technicalyoutubechannels.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="133dp"
+        android:drawableTop="@drawable/ic_play"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:paddingTop="7dp"
+        android:id="@+id/geekyRanjit"
+        android:text="Geeky Ranjit"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:drawableTop="@drawable/ic_play"
+        android:padding="5dp"
+        android:layout_width="100dp"
+        android:layout_margin="5dp"
+        android:layout_height="133dp"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:paddingTop="7dp"
+        android:id="@+id/MysmartSupport"
+        android:text="My smart support"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:drawableTop="@drawable/ic_play"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="133dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#fff"
+
+            android:id="@+id/technicalGuruji"
+            android:text="Technical Guruji"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:drawableTop="@drawable/ic_play"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="133dp"
+
+            android:layout_weight="1"
+            android:background="#fff"
+
+            android:id="@+id/sharmaJi"
+            android:text="Sharmaji Technical"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:drawableTop="@drawable/ic_play"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:id="@+id/technicalSagar"
+            android:text="Techincal Sagar"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:drawableTop="@drawable/ic_play"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:id="@+id/gadgetHouse"
+            android:text="Beeboom"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:drawableTop="@drawable/ic_play"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:id="@+id/aaiyaSiktay"
+            android:layout_margin="5dp"
+            android:text="Aaya Siktay Hai"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:drawableTop="@drawable/ic_play"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:layout_margin="5dp"
+            android:paddingTop="7dp"
+            android:id="@+id/C4Tech"
+            android:text="C4 E Tech"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:drawableTop="@drawable/ic_play"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:id="@+id/igayaan"
+            android:layout_margin="5dp"
+            android:text="Igayan"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:drawableTop="@drawable/ic_play"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="133dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:id="@+id/technicalDost"
+            android:text="Mahatmaji Technical"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/list_item"
+            ads:adUnitId="@string/banner_ad_unit_id2">
+
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+</ScrollView>
